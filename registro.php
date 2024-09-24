@@ -15,14 +15,14 @@
 		echo '
 		<script>
 			alert ("Usuario guardado exitosamente");
-			window.location = "pagina_web_gatos.html";
+			window.location = "index.html";
 		</script>
 		';
 	}else {
 		echo '
 		<script>
 			alert ("Intentalo de nuevo, usuario no almacenado");
-			window.location = "pagina_web_gatos.html";
+			window.location = "index.html";
 		</script>
 		';
 	}
