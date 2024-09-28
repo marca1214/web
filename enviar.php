@@ -9,17 +9,17 @@
 	$ciudad = $_POST['ciudad'];
 	$mensaje = $_POST['mensaje'];
 	
-$header = 'From: ' . $mail . " \r\n";
-$header .="X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .="Mime-Version: 1.0" . " \r\n ";
+$header = 'From: '.$mail."\r\n";
+$header .="X-Mailer: PHP/".phpversion()."\r\n";
+$header .="Mime-Version: 1.0"."\r\n ";
 $header .="Content-Type: text/plain";
 
 
-$mensaje = "Este mensaje fue enviado por: " . $nombre . " \r\n";
-$mensaje .= "Su email: ". $email . " \r\n";
-$mensaje .="Telefono de contacto: " . $celular . " \r\n";
-$mensaje .="Mensaje: " . $_POST['mensaje'] . " \r\n";
-$mensaje .="Enviado el: " . date(d/m/Y, time());
+$mensaje = "Este mensaje fue enviado por: ".$nombre."\r\n";
+$mensaje .= "Su email: ".$email."\r\n";
+$mensaje .="Telefono de contacto: ".$celular."\r\n";
+$mensaje .="Mensaje: ".$_POST['mensaje']."\r\n";
+$mensaje .="Enviado el: ".date(d/m/Y, time());
 $para = 'andressantacruz1214@gmail.com';
 $asunto = 'Asunto del mensaje';
 
