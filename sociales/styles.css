@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    color: #333;
+    background-image: url('imagen/sociales.jpg');
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-container {
+    margin: 20px 0;
+}
+
+.score-container {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.visita img {
+    width: 20%;
+    border-radius: 50%;
+    align-items: center;
+    border: solid black 2px;
+}
+.visita:hover {
+    color: black;
+    background-color: #90EE90;
+}
+
+.visita a {
+  
+     color: blue;
+    background-color: white;
+    font-size: 40px;
+    font-weight: bold;  /*sombra o profundidad de una letra*/
+    border: 2px solid blue;
+    text-decoration: none;
+    border-radius: 12px;
+    margin: 15px;
+}
